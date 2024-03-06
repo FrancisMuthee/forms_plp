@@ -1,0 +1,58 @@
+<!-- Create a html form to register a new student
+Gather the following information using the relevent form elements:
+
+Name
+Date of Birth
+Gender
+Address
+Telephone
+Email Address
+Course
+The form should have two buttons:
+
+Register
+Cancel
+All the form elements are not optional.
+
+Incorporate appropriate labels for the form elements. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registering a new student.</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h2>Student Details</h2>
+    <div class="form">
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="Name:">Name</label><br>
+        <input type="text" id="name" name="mobile" placeholder="Enter your full names" required>
+        <br>
+        <label for="Dale of Birth">D.O.B</label><br>
+        <input type="number" id="dob" name="dob" placeholder="Enter your birth date" required>
+        <br>
+        <label for="Gender">Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">female</label><br>
+        <br>
+        <label for="telephone">Telephone</label><br>
+        <input type="number" id="telephone" name="telephone" placeholder="Enter your number" required>
+        <br>
+        <label for="Email address">Email address</label><br>
+        <input type="email" id="email" name="email" placeholder="Email address" required>
+        <br>
+        <label for="Course">Course</label><br>
+        <input type="text" id="course" name="course" placeholder="Course" required><br>
+        <button type="submit">Register</button><br>
+        <button type="reset">Cancel</button>
+    </form>
+</div>
+    
+</body>
+</html>

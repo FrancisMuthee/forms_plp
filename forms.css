@@ -1,0 +1,13 @@
+.form{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.form label{
+    font-weight: 700;
+}
+button{
+    background-color: aqua;
+}
